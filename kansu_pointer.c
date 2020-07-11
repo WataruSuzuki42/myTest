@@ -17,7 +17,7 @@ void (*const All_test[])() = {
     &test5,
 };
 
-static int main(void) {
+int main(void) {
     All_test[test_num]();
     return 0;
 }
